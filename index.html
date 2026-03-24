@@ -3,48 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zachery R. Beaver's Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Zachery R. Beaver</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="bio">
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my projects and skills</p>
+        <a href="#projects" class="cta">View Projects</a>
+    </section>
+    <section id="about">
         <h2>About Me</h2>
-        <p>Short bio section about Zachery R. Beaver including professional background, skills, and interests.</p>
+        <p>I am a passionate developer with skills in various technologies.</p>
     </section>
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Project 1</h3>
-            <p>Description of project 1 based on resume experience.</p>
-        </div>
-        <div class="project-card">
-            <h3>Project 2</h3>
-            <p>Description of project 2 based on resume experience.</p>
-        </div>
-        <div class="project-card">
-            <h3>Project 3</h3>
-            <p>Description of project 3 based on resume experience.</p>
-        </div>
+        <h2>My Projects</h2>
+        <p>Here you can find some of my most recent work.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>I have experience in HTML, CSS, JavaScript, and more.</p>
     </section>
     <section id="contact">
         <h2>Contact Me</h2>
         <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" value="zrbeaver@gmail.com" required>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" value="9038148301">
-            <label for="linkedin">LinkedIn:</label>
-            <input type="url" id="linkedin" name="linkedin" value="https://www.linkedin.com/in/zachbeaver/" readonly>
-            <button type="submit">Submit</button>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
     </section>
     <footer>
-        <p>&copy; 2026 Zachery R. Beaver</p>
+        <p>&copy; 2026 Zrbeaver. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
